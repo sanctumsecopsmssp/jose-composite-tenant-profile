@@ -1,14 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE rfc [
-  <!ENTITY nbsp "&#160;">
+<!ENTITY nbsp "&#160;">
 ]>
-<rfc xmlns:xi="http://www.w3.org/2001/XInclude"
-     category="info"
-     docName="draft-vicente-jose-composite-tenant-profile-00"
-     ipr="trust200902"
-     submissionType="IETF"
-     xml:lang="en"
-     version="3">
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" category="info" docName="draft-vicente-jose-composite-tenant-profile-00" ipr="trust200902" submissionType="IETF" xml:lang="en" version="3">
 
   <front>
     <title abbrev="JOSE Composite Tenant Profile">Multi-Tenant Profile for JOSE Composite Post-Quantum Signatures</title>
@@ -25,7 +19,7 @@
 
     <date year="2026" month="August" day="20"/>
     <area>Security</area>
-    <workgroup>JOSE</workgroup>
+    <workgroup>Javascript Object Signing and Encryption</workgroup>
     <keyword>JOSE</keyword>
     <keyword>JWT</keyword>
     <keyword>JWS</keyword>

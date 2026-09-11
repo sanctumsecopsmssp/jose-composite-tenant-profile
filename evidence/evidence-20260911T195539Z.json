@@ -1,0 +1,78 @@
+{
+  "draft_repo": "jose-composite-tenant-profile",
+  "utc": "20260911T195539Z",
+  "host": "sanctum-13.sanctumsecops.net",
+  "pen": "1.3.6.1.4.1.65953",
+  "status": "live",
+  "workgroup_acronym": "jose",
+  "source": "draft-vicente-jose-composite-tenant-profile-00.xml",
+  "target_submission_type": "IETF",
+  "commit": "a352850347cf70ceca541d5aa7858a3ed37b82a6",
+  "branch": "main",
+  "remote": "https://github.com/sanctumsecopsmssp/jose-composite-tenant-profile.git",
+  "worktree_dirty": true,
+  "tools": {
+    "xml2rfc": "xml2rfc 3.34.1",
+    "kramdown-rfc2629": "/usr/lib/ruby/vendor_ruby/rubygems.rb:265:in `find_spec_for_exe': can't find gem kramdown-rfc2629 (>= 0.a) with executable kramdown-rfc2629 (Gem::GemNotFoundException)",
+    "idnits": "3.1.0"
+  },
+  "artifacts": {
+    "draft-vicente-jose-composite-tenant-profile-00.xml": {
+      "sha256": "abf5d664054b031aa8cf03a352ed714fc4a0a88b7a00b63310411a03645e71b3",
+      "bytes": 12108
+    },
+    "draft-vicente-jose-composite-tenant-profile-00.txt": {
+      "sha256": "1c7690c6a7169b12c5427ca7759d78cff7954f517a0613959a78713edf7d7697",
+      "bytes": 12531
+    },
+    "draft-vicente-jose-composite-tenant-profile-00.html": {
+      "sha256": "e1f742dd9a2b6b399125c2535e51deb2495233a57d051973db59098d30e0e543",
+      "bytes": 55094
+    }
+  },
+  "boilerplate": {
+    "file": "draft-vicente-jose-composite-tenant-profile-00.xml",
+    "ipr": "trust200902",
+    "category": "info",
+    "version": "3",
+    "docName": "draft-vicente-jose-composite-tenant-profile-00",
+    "docName_matches_file": true,
+    "submissionType": "IETF",
+    "workgroup": "Javascript Object Signing and Encryption",
+    "workgroup_target": "Javascript Object Signing and Encryption",
+    "workgroup_is_area": false,
+    "authors": 1,
+    "has_abstract": true,
+    "seriesInfo": [
+      [
+        "Internet-Draft",
+        "draft-vicente-jose-composite-tenant-profile-00"
+      ]
+    ],
+    "would_change": [],
+    "changed": [],
+    "submit_ready": true
+  },
+  "submit_ready": true,
+  "drift": [],
+  "builds": [
+    {
+      "pass": 1,
+      "md2xml_rc": null,
+      "text_rc": 0,
+      "html_rc": 0,
+      "idnits_rc": 1,
+      "xml2rfc_tail": "/srv/ietf/repos/jose-composite-tenant-profile/draft-vicente-jose-composite-tenant-profile-00.xml(20): Warning: The document date (2026-08-20) is more than 3 days away from today's date\n/srv/ietf/repos/jose-composite-tenant-profile/draft-vicente-jose-composite-tenant-profile-00.xml(222): Warning: Unused reference: There seems to be no reference to [RFC7517] in the document\n Created file draft-vicente-jose-composite-tenant-profile-00.txt\n",
+      "idnits_tail": "       [string] [choices: \"normal\", \"forgive-checklist\", \"submission\"] [default:\n                                                                       \"normal\"]\n      --no-progress  Disable progress messages / animations in pretty output\n                                                                       [boolean]\n      --offline      Disable validations that require an internet connection\n                                                      [boolean] [default: false]\n  -o, --output       Output format\n     [string] [choices: \"pretty\", \"simple\", \"json\", \"count\"] [default: \"pretty\"]\n      --solarized    Use alternate colors for a solarized light themed terminal\n                                                      [boolean] [default: false]\n      --no-color     Disable color in pretty output                    [boolean]\n      --version      Show version number                               [boolean]\n  -h, --help         Show help                                         [boolean]\n\nExamples:\n  idnits draft-ietf-abcd-01.xml\n  idnits -m submission -y 2026 draft-ietf-abcd-01.xml\n  idnits https://www.rfc-editor.org/rfc/rfc2549\n\nNot enough non-option arguments: got 0, need at least 1\n"
+    },
+    {
+      "pass": 2,
+      "md2xml_rc": null,
+      "text_rc": 0,
+      "html_rc": 0,
+      "idnits_rc": 1,
+      "xml2rfc_tail": "/srv/ietf/repos/jose-composite-tenant-profile/draft-vicente-jose-composite-tenant-profile-00.xml(20): Warning: The document date (2026-08-20) is more than 3 days away from today's date\n/srv/ietf/repos/jose-composite-tenant-profile/draft-vicente-jose-composite-tenant-profile-00.xml(222): Warning: Unused reference: There seems to be no reference to [RFC7517] in the document\n Created file draft-vicente-jose-composite-tenant-profile-00.txt\n",
+      "idnits_tail": "       [string] [choices: \"normal\", \"forgive-checklist\", \"submission\"] [default:\n                                                                       \"normal\"]\n      --no-progress  Disable progress messages / animations in pretty output\n                                                                       [boolean]\n      --offline      Disable validations that require an internet connection\n                                                      [boolean] [default: false]\n  -o, --output       Output format\n     [string] [choices: \"pretty\", \"simple\", \"json\", \"count\"] [default: \"pretty\"]\n      --solarized    Use alternate colors for a solarized light themed terminal\n                                                      [boolean] [default: false]\n      --no-color     Disable color in pretty output                    [boolean]\n      --version      Show version number                               [boolean]\n  -h, --help         Show help                                         [boolean]\n\nExamples:\n  idnits draft-ietf-abcd-01.xml\n  idnits -m submission -y 2026 draft-ietf-abcd-01.xml\n  idnits https://www.rfc-editor.org/rfc/rfc2549\n\nNot enough non-option arguments: got 0, need at least 1\n"
+    }
+  ]
+}
